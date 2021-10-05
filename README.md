@@ -1,3 +1,16 @@
+En esta clase se realiza un CRUD a una base de datos que creamos con phpMyAdmin. Creamos una tabla que se llama "actores" con los siguientes campos: id(autoincremental), apellido, nombre, pais, fechanacimiento y foto. La idea es ir agregando/editando y eliminando estos datos por medio de nuestra app en React.Por otro lado se utiliza otro repo que nos pasó Fernando (https://github.com/fernandomatiasdv/guayerd-clase07-backend) que sirve para establecer la conexión con la base de datos entre otras cosas. En este repo de backend solo se deben ejecutar los comandos: npm i y nodemon app. Nota: al insertar los registros desde nuestra App, por la terminal también podremos ir viendo toda la info que se va insertando en nuestra Base de datos. También se utilizó un programa llamado "Postman" que nos sirvió para simular el envío o recepción de datos por post o get: "localhost:5000/actores". Esto es un  ejemplo de una estructura enviada por post y si realizamos un get deberíamos obtener la misma info.
+{
+    "apellido": "Oreiro",
+    "nombre": "Natalia",
+    "pais": "Uruguay",
+    "fechanacimiento": "1977-05-19",
+    "foto": "https://pbs.twimg.com/profile_images/1308511764062101504/NjigSplI_400x400.jpg"
+}
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
